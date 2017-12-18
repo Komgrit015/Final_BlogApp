@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.marryme.pin.PostActivity">
+
+    <RelativeLayout
+        android:layout_width="410dp"
+        android:layout_height="587dp"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="2dp">
+
+
+        <Button
+            android:id="@+id/submitBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/descField"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorAccent"
+            android:text="submit post"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/descField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleField"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/input_outline"
+            android:ems="10"
+            android:hint="Post Description..."
+            android:inputType="textMultiLine"
+            android:padding="15dp"
+            tools:layout_editor_absoluteX="-124dp"
+            tools:layout_editor_absoluteY="291dp" />
+
+        <EditText
+            android:id="@+id/titleField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/input_outline"
+            android:ems="10"
+            android:hint="Post Title ..."
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:singleLine="true"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="234dp" />
+
+        <ImageButton
+            android:id="@+id/imageSelect"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:background="#00ffffff"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/add_btn" />
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

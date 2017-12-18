@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "534020356743",
+    "firebase_url": "https://psupin-9cbd0.firebaseio.com",
+    "project_id": "psupin-9cbd0",
+    "storage_bucket": "psupin-9cbd0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534020356743:android:ea0095a483e1a5f2",
+        "android_client_info": {
+          "package_name": "com.example.marryme.pin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534020356743-koeep08g361p4n8hu7e7vph03m85r9v4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.marryme.pin",
+            "certificate_hash": "7b1ff93adcf75d324d88c48ca03f545877ea1f7e"
+          }
+        },
+        {
+          "client_id": "534020356743-ontof07s8loh8nvc859ff46u2n7g4r9t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnFsQ5nOnnvrV63yMNS-aPZiIuIgITJoY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534020356743-ontof07s8loh8nvc859ff46u2n7g4r9t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
